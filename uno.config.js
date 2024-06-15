@@ -1,5 +1,22 @@
-import { defineConfig } from "unocss";
+import {
+  defineConfig,
+  presetAttributify,
+  presetUno,
+  presetIcons,
+} from "unocss";
 
 export default defineConfig({
-    // ...UnoCSS options
+  presets: [
+    presetUno(),
+    presetAttributify(),
+    presetIcons({ scale: 1.2, warn: true }),
+  ],
+  shortcuts: [],
+  rules: [],
+  theme: {
+    colors: {
+      primary: "var(--primary-color)",
+      dark_bg: "var(--dark-bg)",
+    },
+  },
 });

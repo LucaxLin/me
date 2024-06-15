@@ -1,17 +1,24 @@
-import {
-  defineConfig,
-  presetAttributify,
-  presetUno,
-  presetIcons,
-} from "unocss";
-
+import { defineConfig, presetAttributify, presetUno } from "unocss";
+import UnocssIcons from "@unocss/preset-icons";
 export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
-    presetIcons({ scale: 1.2, warn: true }),
+    UnocssIcons({
+      prefix: "i-",
+      extraProperties: {
+        display: "inline-block",
+      },
+    }),
   ],
-  shortcuts: [],
+  shortcuts: [
+    {
+      "bg-base": "bg-white dark:bg-dark_bg",
+      "color-base": "text-black dark:text-white",
+      "border-base": "border-[#8884]",
+      "lk-base":"hover:text-primary transition cursor-pointer"
+    },
+  ],
   rules: [],
   theme: {
     colors: {

@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #5c73e6;
+  --primary-color: #44bd87;
   --dark-bg: #000;
 }
 
@@ -21,6 +21,7 @@ body,
 html.dark {
   background: var(--dark-bg);
   color: #fff;
+  --primary-color: #5c73e6;
 }
 
 @font-face {

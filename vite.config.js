@@ -7,7 +7,7 @@ export default defineConfig((mode) => {
   const env = loadEnv(mode, process.cwd());
   const { VITE_PUBLIC_PATH } = env;
   return {
-    base: './',
+    base: VITE_PUBLIC_PATH,
     plugins: [vue(), UnoCSS()],
     resolve: {
       alias: {

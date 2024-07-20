@@ -45,7 +45,8 @@
             <div class="left text-xl">FESCO Adecco (Huawei OD project)</div>
             <div class="right">2022/08 - now</div>
           </div>
-          <div class="desc">What I do: 3 chip-testing-system</div>
+          <div class="desc">Projects: 3 chip-testing-system</div>
+          <div class="desc">Achieves:</div>
         </div>
       </the-card>
     </div>

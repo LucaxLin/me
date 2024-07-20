@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <div class="inline-flex" animate-fade-in :key="lang">
+    <div class="inline-flex w50%" animate-fade-in :key="lang">
       <home-cn v-if="lang === 'cn'"></home-cn>
       <home-en v-else></home-en>
     </div>

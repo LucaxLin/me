@@ -1,15 +1,17 @@
 <template>
-  <div class="theNav" flex="~ justify-between" p4>
+  <div class="theNav" flex="~ justify-between items-center" p4>
     <logo w8 @click="$router.push('/')" />
     <div class="right" text-2xl flex="~ 1 justify-end items-center">
-      <div class="cert lk-base mr4 text-sm" @click="$router.push('/art')">
+      <!-- <div class="cert lk-base mr4 text-sm" @click="$router.push('/art')">
         <span v-if="lang == 'en'">Art</span>
         <span v-if="lang == 'cn'">艺术</span>
-      </div>
-      <div class="cert lk-base mr4 text-sm" @click="$router.push('/cert')">
-        <span v-if="lang == 'en'">Cert.</span>
-        <span v-if="lang == 'cn'">证书</span>
-      </div>
+      </div> -->
+      <div
+        class="cert lk-base mr4"
+        i-mdi:certificate-outline
+        @click="$router.push('/cert')"
+        :title="lang === 'cn' ? '证书' : 'Cert.'"
+      ></div>
       <language mr4></language>
       <a
         lk-base

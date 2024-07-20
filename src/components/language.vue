@@ -1,7 +1,7 @@
 <template>
-  <button class="language" text-sm lk-base @click="toggleLang">
-    <div class="cn" v-show="lang === 'cn'">中</div>
-    <div class="en" v-show="lang === 'en'">En</div>
+  <button class="language" lk-base flex="~ items-center" @click="toggleLang">
+    <div class="cn" v-show="lang === 'cn'" i-icon-park-outline:chinese></div>
+    <div class="en" v-show="lang === 'en'" i-icon-park-outline:english></div>
   </button>
 </template>
     

@@ -39,7 +39,15 @@
     <div class="workingExp">
       <div class="title fw-bold mb8" text="2xl black dark:white">工作经历</div>
 
-      <the-card>111 </the-card>
+      <the-card>
+        <div class="p4">
+          <div class="title mb4" flex="~ justify-between items-center">
+            <div class="left text-xl">外企德科（华为OD项目）</div>
+            <div class="right">2022/08 - 至今</div>
+          </div>
+          <div class="desc">参与项目：3个芯片测试平台前端项目</div>
+        </div>
+      </the-card>
     </div>
   </article>
 </template>

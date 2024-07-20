@@ -1,6 +1,5 @@
-<script setup lang="ts">
+<script setup>
 import { p5i } from "p5i";
-import type { P5I } from "p5i";
 import { onMounted, onUnmounted, ref } from "vue";
 import { useEventListener } from "@vueuse/core";
 

@@ -1,6 +1,7 @@
 <template>
   <div class="skills mb8">
-    Mastered at:
+    {{ lang === "cn" ? "精通" : "Mastered at" }}:
+
     <span button-link>
       <span i-vscode-icons:file-type-html mr1></span>
       HTML
@@ -33,6 +34,9 @@
 </template>
     
 <script setup>
+import { useLocalStorage } from "@vueuse/core";
+
+const lang = useLocalStorage("lang", "cn");
 </script>
     
 <style>

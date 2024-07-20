@@ -1,7 +1,6 @@
 <template>
   <div class="artGal">
-
-    111
+    
   </div>
 </template>
     

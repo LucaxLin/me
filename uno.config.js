@@ -25,8 +25,8 @@ export default defineConfig({
   ],
   shortcuts: [
     {
-      "bg-base": "bg-white dark:bg-[#1b1b1b]",
-      "bg-base:50": "bg-white:50 dark:bg-[#1b1b1b]:50",
+      "bg-base": "bg-[#eee] dark:bg-[#1b1b1b]",
+      "bg-base:50": "bg-[#eee]:50 dark:bg-[#1b1b1b]:50",
       "bg-card": "bg-#f0f0f0 dark:bg-#1b1b1b",
       "color-base": "text-black dark:text-white",
       "border-base": "border-[#8884]",

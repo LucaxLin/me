@@ -1,6 +1,17 @@
 <template>
   <article class="lh-[2]" text="#555 dark:#bbb">
-    <div class="title" fw-bold text="3xl black dark:white" mb8>Lucas Lin</div>
+    <div class="title" fw-bold text="3xl" mb8>
+      <span text="black dark:white" mr2>Lucas Lin</span>
+      <div class="contact inline-block" text-sm>
+        <span transition dark:hover:text-white hover:text-black
+          >tel: 18605916597</span
+        >
+        |
+        <span transition dark:hover:text-white hover:text-black
+          >Email: 892789989@qq.com</span
+        >
+      </div>
+    </div>
     <div class="subTitle mb8">
       Hi, I'm Lucas Lin. A WEB developer who fanaticises discovering new things.
     </div>
@@ -55,7 +66,7 @@
       <the-card>
         <div class="p4">
           <div class="title mb4" flex="~ justify-between items-center">
-            <div class="left text-xl">qifei tech</div>
+            <div class="left text-xl">Qi Fei Tech</div>
             <div class="right">2022/02 - 2022/07</div>
           </div>
           <div class="desc">Projects: taobao-like shopping system</div>

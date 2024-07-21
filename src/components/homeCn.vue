@@ -1,14 +1,16 @@
 <template>
   <article class="lh-[2]" text="#555 dark:#bbb">
-    <div
-      class="title"
-      fw-bold
-      text="3xl black dark:white"
-      mb8
-      lk-base
-      @click="contactMe"
-    >
-      林晨鑫
+    <div class="title" fw-bold text="3xl" mb8>
+      <span text="black dark:white" mr2>林晨鑫</span>
+      <div class="contact inline-block" text-sm>
+        <span transition dark:hover:text-white hover:text-black
+          >tel: 18605916597</span
+        >
+        |
+        <span transition dark:hover:text-white hover:text-black
+          >Email: 892789989@qq.com</span
+        >
+      </div>
     </div>
     <div class="subTitle mb8">
       嗨，我是林晨鑫。一位热于发现新事物的前端开发者。
@@ -77,11 +79,5 @@
 <script setup>
 import theCard from "@/components/theCard.vue";
 import mySkills from "@/components/mySkills.vue";
-import { ref } from "vue";
-import { useRouter } from "vue-router";
-const router = useRouter();
-function contactMe() {
-  router.push({ name: "contactMe" });
-}
 </script>
     

@@ -1,5 +1,12 @@
 <template>
-  <div class="theNav" flex="~ justify-between items-center" p4>
+  <div
+    class="theNav"
+    flex="~ justify-between items-center"
+    w-full
+    p4
+    fixed
+    top-0
+  >
     <logo w8 @click="$router.push('/')" />
     <div class="right" text-2xl flex="~ 1 justify-end items-center">
       <!-- <div class="cert lk-base mr4 text-sm" @click="$router.push('/art')">

@@ -16,7 +16,7 @@
       </span>
 
       <div class="major">
-        Major in:
+        Major:
         <span
           button-link
           button-link-hover
@@ -25,7 +25,7 @@
         >
       </div>
       <div class="minor">
-        Minor in:
+        Minor:
         <span
           button-link
           button-link-hover
@@ -35,9 +35,12 @@
       </div>
     </div>
     <my-skills></my-skills>
-    <div class="workingExp">
-      <div class="title fw-bold mb8" text="2xl black dark:white">
+    <div class="workingExp" flex="~ col gap8">
+      <div class="title fw-bold" text="2xl black dark:white">
         Working Experiments
+        <span text="sm amber" pl2 fw-normal
+          >(please see my pdf resume for more details)</span
+        >
       </div>
       <the-card>
         <div class="p4">
@@ -45,8 +48,18 @@
             <div class="left text-xl">FESCO Adecco (Huawei OD project)</div>
             <div class="right">2022/08 - now</div>
           </div>
-          <div class="desc">Projects: 3 chip-testing-system</div>
-          <div class="desc">Achieves:</div>
+          <div class="desc">Projects: 3 chip-testing-systems</div>
+          <div class="desc">structure: VUE2/3、Vite、qiankun</div>
+        </div>
+      </the-card>
+      <the-card>
+        <div class="p4">
+          <div class="title mb4" flex="~ justify-between items-center">
+            <div class="left text-xl">qifei tech</div>
+            <div class="right">2022/02 - 2022/07</div>
+          </div>
+          <div class="desc">Projects: taobao-like shopping system</div>
+          <div class="desc">structure: VUE2、uniApp</div>
         </div>
       </the-card>
     </div>

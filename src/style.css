@@ -16,6 +16,7 @@ body,
   margin: 0;
   padding: 0;
   height: 100vh;
+  scrollbar-width: none;
 }
 
 html.dark {
@@ -27,4 +28,7 @@ html.dark {
 @font-face {
   font-family: Digital;
   src: url(./assets/font/DS-DIGI.TTF);
+}
+::-webkit-scrollbar {
+  display: none;
 }
